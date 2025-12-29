@@ -9,18 +9,10 @@
 /* Begin PBXBuildFile section */
 		7577C8642F030BB50072534C /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 7577C8632F030BB50072534C /* OneSignalExtension */; };
 		7577C8662F030BB50072534C /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7577C8652F030BB50072534C /* OneSignalFramework */; };
-		7577C8732F0312C40072534C /* Haqaaurzaeyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577C8722F0312C40072534C /* Haqaaurzaeyu.swift */; };
-		7577C8752F0312CE0072534C /* Zwnqyrknxddlz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577C8742F0312CE0072534C /* Zwnqyrknxddlz.swift */; };
-		7577C8772F0312D60072534C /* Wlaeykcnwzlyw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7577C8762F0312D60072534C /* Wlaeykcnwzlyw.swift */; };
-		7577C9192F0316630072534C /* AttackOfMonsterRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7577C9182F0316630072534C /* AttackOfMonsterRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7577C8502F030B6C0072534C /* EncoreClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncoreClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7577C8722F0312C40072534C /* Haqaaurzaeyu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haqaaurzaeyu.swift; sourceTree = "<group>"; };
-		7577C8742F0312CE0072534C /* Zwnqyrknxddlz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zwnqyrknxddlz.swift; sourceTree = "<group>"; };
-		7577C8762F0312D60072534C /* Wlaeykcnwzlyw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wlaeykcnwzlyw.swift; sourceTree = "<group>"; };
-		7577C9182F0316630072534C /* AttackOfMonsterRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AttackOfMonsterRegular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -42,21 +34,6 @@
 			path = EncoreClub;
 			sourceTree = "<group>";
 		};
-		7577C91C2F0317FE0072534C /* AchievementCore */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AchievementCore;
-			sourceTree = "<group>";
-		};
-		7577C91D2F0318200072534C /* Braine */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Braine;
-			sourceTree = "<group>";
-		};
-		7577C9262F0319100072534C /* Game */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Game;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +52,6 @@
 		7577C8472F030B6C0072534C = {
 			isa = PBXGroup;
 			children = (
-				7577C9262F0319100072534C /* Game */,
-				7577C91C2F0317FE0072534C /* AchievementCore */,
-				7577C91D2F0318200072534C /* Braine */,
-				7577C8722F0312C40072534C /* Haqaaurzaeyu.swift */,
-				7577C8742F0312CE0072534C /* Zwnqyrknxddlz.swift */,
-				7577C9182F0316630072534C /* AttackOfMonsterRegular.ttf */,
-				7577C8762F0312D60072534C /* Wlaeykcnwzlyw.swift */,
 				7577C8522F030B6C0072534C /* EncoreClub */,
 				7577C8512F030B6C0072534C /* Products */,
 			);
@@ -112,9 +82,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7577C8522F030B6C0072534C /* EncoreClub */,
-				7577C91C2F0317FE0072534C /* AchievementCore */,
-				7577C91D2F0318200072534C /* Braine */,
-				7577C9262F0319100072534C /* Game */,
 			);
 			name = EncoreClub;
 			packageProductDependencies = (
@@ -167,7 +134,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7577C9192F0316630072534C /* AttackOfMonsterRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7577C8732F0312C40072534C /* Haqaaurzaeyu.swift in Sources */,
-				7577C8752F0312CE0072534C /* Zwnqyrknxddlz.swift in Sources */,
-				7577C8772F0312D60072534C /* Wlaeykcnwzlyw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
